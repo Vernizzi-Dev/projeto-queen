@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Queen</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="img/logo-queen.png" alt="Logo da Banda Queen" />
+      <a href="queen.html"><span class="aba-select">Início</span></a>
+      <a href="historia.html"><span>História</span></a>
+      <a href=""><span>Musicalidade</span></a>
+      <a href="integrantes.html"><span>Integrantes</span></a>
+      <img src="img/logo-queen.png" alt="Logo da Banda Queen" />
+    </header>
+
+    <section id="foto-banda"><h1 id="queen">Queen</h1></section>
+
+    <main>
+      <h1>Músicas Famosas</h1>
+      <div class="container">
+        <div class="card">
+          <img
+            src="img/we-will-rock-you.jpeg"
+            alt="Foto da música We Will Rock You"
+          />
+          <h2>We Will Rock You</h2>
+          <a href="musica-01.html"
+            ><button
+              class="spotify-button"
+              onclick="openSongPage('musica.html')"
+            >
+              Play
+            </button></a
+          >
+        </div>
+        <div class="card">
+          <img
+            src="img/another-one-bites.jpg"
+            alt="Foto da música Another One Bites"
+          />
+          <h2>Another One Bites The Dust</h2>
+          <a href="musica-02.html"
+            ><button class="spotify-button">Play</button></a
+          >
+        </div>
+        <div class="card">
+          <img
+            src="img/bohemian-rhapsody.webp"
+            alt="Foto da música Bohemian Rhapsody"
+          />
+          <h2>Bohemian Rhapsody</h2>
+          <a href="musica-03.html"
+            ><button class="spotify-button">Play</button></a
+          >
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: center; gap: 4vw">
+        <button class="ver-mais-button">Ver mais</button>
+        <button class="ver-mais-button">Ver Álbuns</button>
+      </div>
+
+
+    </main>
+
+    <section class="section-1">
+        <h1>Curiosidade</h1>
+        <div class="vela-container">
+            <div class="texto">
+                🎤 Freddie Mercury compôs "Crazy Little Thing Called Love" em apenas 10 minutos... enquanto tomava banho! <br>
+                Ele escreveu a música em 1979 durante uma pausa no estúdio — estava no chuveiro do hotel em Munique quando a melodia surgiu. Pulou do banho, pegou um violão (instrumento que ele raramente usava para compor) e em cerca de 10 minutos, a música estava pronta. <br>
+                Essa faixa foi o primeiro grande hit do Queen nos Estados Unidos, alcançando o topo das paradas!
+            </div>
+            <div class="mascara"></div>
+          </div>
+    
+    </section>
+
+    <footer></footer>
+
+    <script>
+      function openSongPage(url) {
+        sessionStorage.setItem("scrollPos", window.scrollY);
+        window.location.href = url;
+      }
+
+      const mascara = document.querySelector(".mascara");
+
+      document
+        .querySelector(".vela-container")
+        .addEventListener("mousemove", (e) => {
+          const rect = e.target.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+
+          mascara.style.background = `radial-gradient(circle at ${x}px ${y}px, transparent 80px, rgba(0, 0, 0, 0.99) 160px)`;
+        });
+    </script>
+  </body>
+</html>
