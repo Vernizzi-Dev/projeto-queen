@@ -123,6 +123,91 @@ main:hover h1 {
   border-radius: 50%;
   box-shadow: 0px 0px 20px rgb(0, 0, 0);
 }
+
+
+.card2{
+  background-color: rgb(0, 0, 0);
+  padding: 1vw;
+  border-radius: 1vw;
+  height: 26vw;
+  transition: 0.3s;
+}
+.card2:hover {
+  background-color: rgb(28, 28, 28);
+  transition: 0.5s;
+  transform: scale(1.05);
+}
+.card2 > h2 {
+  display: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 1.5vw;
+  text-align: center;
+  margin-top: 1vw;
+  transition: 0.3s;
+  margin-bottom: 3vw;
+}
+.card2:hover h2 {
+  display: block;
+  transition: 1s;
+}
+.card2:hover button {
+  display: block;
+}
+.img-freddie{
+  background-image: url(img/freddie-mercury-velho.jpg);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.card2:hover .img-freddie{
+  background-image: url(img/freddie-mercury-novo.jpg);
+  transition: 0.5s;
+}
+.img-brian{
+  background-image: url(img/brian-may-velho.jpg);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.card2:hover .img-brian{
+  background-image: url(img/brian-may-novo.webp);
+  transition: 0.5s;
+  background-position: center left;
+}
+.img-john{
+  background-image: url(img/john-deacon-velho.jpg);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.card2:hover .img-john{
+  background-image: url(img/john-deacon-novo.jpg);
+  transition: 0.5s;
+}
+.img-roger{
+  background-image: url(img/roger-taylor-velho.jpg);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.card2:hover .img-roger{
+  background-image: url(img/roger-taylor-novo.webp);
+  transition: 0.5s;
+}
 .spotify-button {
   display: none;
   background-color: #16a849;
@@ -145,6 +230,27 @@ main:hover h1 {
 }
 
 .spotify-button:active {
+  transform: scale(0.98);
+}
+.spotify-button2 {
+  display: none;
+  background-color: #16a849;
+  color: white;
+  border: none;
+  border-radius: 999vw;
+  padding: 0.8vw 2.5vw;
+  font-size: 1.2vw;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: auto;
+}
+.spotify-button2:hover {
+  background-color: #1ed760;
+  transform: scale(1.05);
+}
+.spotify-button2:active {
   transform: scale(0.98);
 }
 iframe {
