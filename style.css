@@ -260,10 +260,6 @@ iframe {
   margin-bottom: 5vw;
   transition: 0.6s;
 }
-iframe:hover{
-  box-shadow: 0px 0px 49px rgba(255, 0, 0, 0.695);
-  transition: 0.8s;
-}
 .back-button {
   background-color: #ba0010;
   color: white;
@@ -489,4 +485,57 @@ iframe#video{
   font-weight: normal;
   font-size: 1.5vw;
   text-align: center;
+}
+.biografia{
+  display: block;
+  margin: auto;
+  width: 69%;
+  background-color:  rgb(28, 28, 28);
+  height: 90vw;
+  padding: 3vw;
+  border-radius: 2vw;
+}
+.container2{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container2 > img{
+  width: 27vw;
+  border-radius: 3vw;
+  box-shadow: 0px 0px 25px black;
+}
+.container2 > h2{
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 3.8vw;
+  cursor: default;
+}
+.biografia > p{
+  color: white;
+  font-family: "Poppins", sans-serif;
+  width: 90%;
+  text-align: justify;
+  margin: auto;
+  margin-top: 3vw;
+  font-size: 1.5vw;
+}
+.ler-mais{
+  font-weight: bolder;
+  cursor: pointer;
+}
+iframe.video2{
+  width: 39vw;
+  height: 22vw;
+  border-radius: 3vw;
+}
+iframe.video2:hover{
+  transform: scale(1.2);
+  box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.749);
+  border: 2px solid rgb(255, 83, 83);
+}
+.biografia > h2{
+  color: white;
+  font-family: "Poppins", sans-serif;
+  
 }
