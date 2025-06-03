@@ -44,7 +44,7 @@ body {
   background-color: black;
 }
 #foto-banda {
-  background-image: url(img/banda-queen-01.webp);
+  background-image: url(img/banda-queen-02.png);
   height: 45vw;
   background-repeat: no-repeat;
   background-size: 49vw;
@@ -558,4 +558,46 @@ iframe.video2{
 .main-integrantes{
   background-color: #000000;
   height: 32vw;
+}
+.albun-1{
+  background-image: url(img/álbun-1.jpg);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.albun-2{
+  background-image: url(img/álbun-4.jpg);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.albun-3{
+  background-image: url(img/álbun-8.jpg);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.albun-4{
+  background-image: url(img/álbun-2.jpg);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+h2.ano-laca{
+  margin-bottom: 16px;
+}
+h2.nome-baixo{
+  margin-bottom: -10px;
 }
