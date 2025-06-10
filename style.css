@@ -361,7 +361,7 @@ a {
   );
   z-index: 2;
   pointer-events: none;
-  transition: background 0.1s;
+  transition: 0.1s;
 }
 .section-1 > h1 {
   color: white;
@@ -595,9 +595,112 @@ iframe.video2{
   border-radius: 50%;
   transition: 0.3s;
 }
+.albun-5{
+  background-image: url(img/álbun-9.jpg);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.albun-6{
+  background-image: url(img/álbun-5.jpg);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.albun-7{
+  background-image: url(img/álbun-10.jpg);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.albun-8{
+  background-image: url(img/álbun-11.png);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.albun-9{
+  background-image: url(img/álbun-13.png);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.albun-10{
+  background-image: url(img/álbun-14.jpg);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.albun-11{
+  background-image: url(img/álbun-6.jpg);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.albun-12{
+  background-image: url(img/álbun-3.jpeg);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.albun-13{
+  background-image: url(img/álbun-7.jpg);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.albun-14{
+  background-image: url(img/álbun-15.png);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.albun-15{
+  background-image: url(img/álbun-12.webp);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
 h2.ano-laca{
   margin-bottom: 16px;
 }
 h2.nome-baixo{
   margin-bottom: -10px;
+}
+#voltar-albun{
+  margin-left: 8vw;
+  margin-bottom: 6vw;
 }
