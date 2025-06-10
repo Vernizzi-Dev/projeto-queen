@@ -425,13 +425,16 @@ p > a:hover{
 .main-historia  span{
     color: rgb(255, 46, 46);
     font-family: "Poppins", sans-serif;
-    margin: 4vw;
+    margin-top: 4vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
     margin-bottom: 5vw;
     cursor: pointer;
     transition: 0.2s;
     background-color: rgb(26, 26, 26);
     padding: 1vw;
     border-radius: 2vw;
+    font-size: 1.2vw;
 }
 .main-historia span:hover{
     text-shadow: 0px 0px 15px red;
@@ -659,7 +662,7 @@ iframe.video2{
   transition: 0.3s;
 }
 .albun-12{
-  background-image: url(img/álbun-3.jpeg);
+  background-image: url(img/álbum-12.jpeg);
   width: 15vw;
   height: 15vw;
   background-size: cover;
@@ -668,15 +671,6 @@ iframe.video2{
   transition: 0.3s;
 }
 .albun-13{
-  background-image: url(img/álbun-7.jpg);
-  width: 15vw;
-  height: 15vw;
-  background-size: cover;
-  background-position: center center;
-  border-radius: 50%;
-  transition: 0.3s;
-}
-.albun-14{
   background-image: url(img/álbun-15.png);
   width: 15vw;
   height: 15vw;
@@ -685,8 +679,17 @@ iframe.video2{
   border-radius: 50%;
   transition: 0.3s;
 }
+.albun-14{
+  background-image: url(img/álbun-3.jpeg);
+  width: 15vw;
+  height: 15vw;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
 .albun-15{
-  background-image: url(img/álbun-12.webp);
+  background-image: url(img/álbun-7.jpg);
   width: 15vw;
   height: 15vw;
   background-size: cover;
